@@ -1,0 +1,22 @@
+#start-btn {
+	position: absolute;
+	bottom: 20px;
+	right: 180px;
+	font-size: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: all .5s ease-in-out;
+}
+#start-btn:hover {
+	opacity: 0.9;
+	color: white;
+}
+
+#help-btn {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 28px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<link rel="stylesheet" href="./assets/css/start-scene.css" />
+	<link rel="stylesheet" href="./assets/css/game-scene.css" />
+</head>
+<body>
+	<div class="container" id="main-container">
+		<div id="game-container">
+			<div id="scene-container">
+				<div id="start-scene" class="is-active">
+					<button id="start-btn" class="button is-warning">Start!</button>
+					<a id="help-btn" class="button">Help</a>
+				</div>
+				<div id="game-scene">
+					<div id="question-container"></div>
+					<div id="choices-container">
+						<div class="choice-btn" id="choice-a">
+							<button class="button is-danger is-inverted">SSsssssssssssssS</button>
+						</div>
+						<div class="choice-btn" id="choice-b">
+							<button class="button is-danger is-inverted">SSS</button>
+						</div>
+						<div class="choice-btn" id="choice-c">
+							<button class="button is-danger is-inverted">SSS</button>
+						</div>
+						<div class="choice-btn" id="choice-d">
+							<button class="button is-danger is-inverted">SSS</button>
+						</div>
+					</div>
+					<div id="question-image"></div>
+					<div id="timeline">
+						<div id="progress"></div>
+					</div>
+					<div id="score-container"></div>
+				</div>
+				<div id="end-scene"></div>
+				<div id="game-correct"></div>
+				<div id="game-lose"></div>
+			</div>
+			<div id="pop-up-overlay">
+				<div id="pop-ups">
+					<div id="pop-up-title"></div>
+					<div id="pop-up-content"></div>
+					<div id="pop-up-selection"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./assets/js/DB.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/start-scene.js"></script>
+	<script src="./assets/js/game-scene.js"></script>
+</body>
+</html>
